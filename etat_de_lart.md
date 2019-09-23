@@ -81,50 +81,53 @@ Site officiel : <https://spacy.io/>
 GitHub : <https://github.com/chakki-works/doccano>
 
 * **Langage** : Django (python) + NodeJS (JavaScript)
-* **Documentation** : 
-* **Communauté** :
+* **Documentation** : peu de documentation mais code opensource. <https://github.com/chakki-works/doccano/wiki>
+* **Communauté** : Communauté GitHub seulement
 * **Intégration des données** :
-* **Opérations supportées** :
+* **Opérations supportées** : provides annotation features for text classification, sequence labeling and sequence to sequence.
 * **Pricing** : Opensource
-* **Algorithmes** :
-* **Flexibilité** :
-* **POC** :
+* **Algorithmes** : /
+* **Flexibilité** : /
+* **POC** : Demos
+  * Named entity recognition
+  * Sentiment Analysis
+  * Machine translation
 
 ### Prodigy
 
 Site officiel : <https://prodi.gy/>
 
-* **Langage** :
-* **Documentation** :
-* **Communauté** :
-* **Intégration des données** :
-* **Opérations supportées** :
-* **Pricing** :
-* **Algorithmes** :
-* **Flexibilité** :
-* **POC** :
+* **Langage** : Python
+* **Documentation** : Très bonne <https://prodi.gy/docs/>
+* **Communauté** : large et active <https://support.prodi.gy/>
+* **Intégration des données** : Supporte la plupart de formats pour l'importation, CSV, JSON, TXT, HTML ... <https://prodi.gy/features/>
+* **Opérations supportées** : Named entity recognition, Text Classification, computer vision.
+* **Pricing** : 400 $ - 10 000 $ (US dollars)
+* **Algorithmes** : Possibilité d'intégrer ses porpres modèles développés en python. Le modèle est mis à jour en live en fonction des annotations faites manuellement.
+* **Flexibilité** : voir ci-dessus
+* **POC** : Live Demo <https://prodi.gy/demo?view_id=ner>
 
 ### Folia
 
 Site officiel : <https://pypi.org/project/FoLiA-Linguistic-Annotation-Tool/>
 
-* **Langage** :
-* **Documentation** :
+* **Langage** : Django (Python)
+* **Documentation** : complète <https://flat.readthedocs.io/en/latest/user_guide.html>
 * **Communauté** :
-* **Intégration des données** :
-* **Opérations supportées** :
-* **Pricing** : Opensource
-* **Algorithmes** :
-* **Flexibilité** :
-* **POC** :
+* **Intégration des données** : Basé seulement sur le format de données Folia <https://proycon.github.io/folia/>
+* **Opérations supportées** : annotations manuelles seulement
+* **Pricing** : Opensource -- GNU Public License v3
+* **Algorithmes** : /
+* **Flexibilité** : /
+* **POC** : Demo <https://www.youtube.com/watch?v=tYF6grtldVQ>
 
 ### GATE
 
 Site officiel : <https://gate.ac.uk/>
 
-* **Langage** :
-* **Documentation** :
-* **Communauté** :
+* **Langage** : Java
+* **Documentation** : Très bonne, documentation, wiki, demo
+* **Communauté** : Mailing list
 * **Intégration des données** :
 * **Opérations supportées** :
 * **Pricing** : Opensource
@@ -136,7 +139,7 @@ Site officiel : <https://gate.ac.uk/>
 
 Site officiel : <https://uima.apache.org/>
 
-* **Langage** :
+* **Langage** : Java / C++
 * **Documentation** :
 * **Communauté** :
 * **Intégration des données** :
