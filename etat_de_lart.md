@@ -39,14 +39,14 @@ Dans un premier temps nous avons défini des critères sur lesquels nous baser p
 Site officiel : <https://brat.nlplab.org/index.html>
 
 * **Langage** : Nécessite un Server python
-* **Documentation** : https://brat.nlplab.org/manual.html	
+* **Documentation** : <https://brat.nlplab.org/manual.html>	
 * **Communauté** : /
-* **Intégration des données** : https://brat.nlplab.org/features.html
-* **Opérations supportées** : https://brat.nlplab.org/features.html
+* **Intégration des données** : <https://brat.nlplab.org/features.html>
+* **Opérations supportées** : <https://brat.nlplab.org/features.html>
 * **Pricing** : Opensource
-* **Algorithmes** : https://brat.nlplab.org/features.html
+* **Algorithmes** : <https://brat.nlplab.org/features.html>
 * **Flexibilité** : Aucune
-* **POC** : https://brat.nlplab.org/examples.html
+* **POC** : <https://brat.nlplab.org/examples.html>
 
 ### NLTK
 
@@ -60,21 +60,21 @@ Site officiel : <https://www.nltk.org/>
 * **Pricing** : OpenSource
 * **Algorithmes** : /
 * **Flexibilité** : Librairie Python
-* **POC** : https://github.com/search?q=nltk
+* **POC** : <https://github.com/search?q=nltk>
 
 ### SPACY
 
 Site officiel : <https://spacy.io/>
 
 * **Langage** : Python  
-* **Documentation** : https://spacy.io/usage
+* **Documentation** : <https://spacy.io/usage>
 * **Communauté** : Grande communauté
 * **Intégration des données** : / 
 * **Opérations supportées** : / 
 * **Pricing** : OpenSource  
 * **Algorithmes** : / 
 * **Flexibilité** : Librairie Python
-* **POC** :https://github.com/search?utf8=✓&q=spacy&type=
+* **POC** : <https://github.com/search?utf8=✓&q=spacy&type=>
 
 ### Doccano
 
@@ -165,14 +165,14 @@ Site officiel : <https://webanno.github.io/webanno/>
 Site officiel : <https://mitre.github.io/callisto/index.html>
 
 * **Langage** : Java
-* **Documentation** : https://mitre.github.io/callisto/manual/index.html
+* **Documentation** : <https://mitre.github.io/callisto/manual/index.html>
 * **Communauté** : Callisto users mailing list is not very active, but you may be able to get some help there
 * **Intégration des données** : /
 * **Opérations supportées** : /
 * **Pricing** : OpenSource
 * **Algorithmes** :/
 * **Flexibilité** : /
-* **POC** : https://webanno.github.io/webanno/use-case-gallery/
+* **POC** : <https://webanno.github.io/webanno/use-case-gallery/>
 No longer being actively supported
 
 ### LightTag
@@ -198,7 +198,7 @@ Site officiel : <https://www.tagtog.net>
 * **Communauté** :/
 * **Intégration des données** :/
 * **Opérations supportées** :/
-* **Pricing** : https://www.tagtog.net/-pricing
+* **Pricing** : <https://www.tagtog.net/-pricing>
 * **Algorithmes** :/
 * **Flexibilité** :/
 * **POC** :/
@@ -208,13 +208,13 @@ Site officiel : <https://www.tagtog.net>
 Site officiel : <http://www.sing-group.org/marky/>
 
 * **Langage** : Nécessite un serveur web
-* **Documentation** : http://www.sing-group.org/marky/tutorial.html#Toc358625730
+* **Documentation** : <http://www.sing-group.org/marky/tutorial.html#Toc358625730>
 * **Communauté** : /
-* **Intégration des données** : http://www.sing-group.org/marky/tutorial.html#outputs 
+* **Intégration des données** : <http://www.sing-group.org/marky/tutorial.html#outputs> 
 * **Opérations supportées** : /
 * **Pricing** : OpenSource
 * **Algorithmes** : /
 * **Flexibilité** : /
-* **POC** : http://www.sing-group.org/marky/tutorial.html
+* **POC** : <http://www.sing-group.org/marky/tutorial.html>
 
 ## Choix final
