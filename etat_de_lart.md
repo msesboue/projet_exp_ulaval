@@ -47,6 +47,15 @@ Site officiel : <https://brat.nlplab.org/index.html>
 * **Algorithmes** : <https://brat.nlplab.org/features.html>
 * **Flexibilité** : Aucune
 * **POC** : <https://brat.nlplab.org/examples.html>
+* **Description** :
+  * Une interface graphique agréable et facile à manipuler
+  * Permet de faire de l'annotation à plusieurs niveaux : entité nommée, relations
+  * Utilise des svg pour la visualisation
+  * Permet de passer facilement d'une document à l'autre
+  * Permet de passer facilement du texte annoté, au texte brut
+  * possibilité de faire l'annotation collaborative
+  * Possibilité de définir nos propres labels
+  * **Problème** : Le format du texte annoté pas facile à manipuler. format .txt avec structure particulière (standoff format).
 
 ### NLTK
 
@@ -69,10 +78,10 @@ Site officiel : <https://spacy.io/>
 * **Langage** : Python  
 * **Documentation** : <https://spacy.io/usage>
 * **Communauté** : Grande communauté
-* **Intégration des données** : / 
-* **Opérations supportées** : / 
+* **Intégration des données** : /
+* **Opérations supportées** : /
 * **Pricing** : OpenSource  
-* **Algorithmes** : / 
+* **Algorithmes** : /
 * **Flexibilité** : Librairie Python
 * **POC** : <https://github.com/search?utf8=✓&q=spacy&type=>
 
@@ -92,6 +101,12 @@ GitHub : <https://github.com/chakki-works/doccano>
   * Named entity recognition
   * Sentiment Analysis
   * Machine translation
+* **Description** :
+  * Une interface graphique agréable et facile à manipuler
+  * Possibilité de définir nos propres labels
+  * Supporte le format JSON à l'importation des données comme à l'exportation
+  * possibilité de faire l'annotation collaborative
+  * **Problème** : Ne semble pas proposer l'annotation de relation
 
 ### Prodigy
 
@@ -107,19 +122,32 @@ Site officiel : <https://prodi.gy/>
 * **Flexibilité** : voir ci-dessus
 * **POC** : Live Demo <https://prodi.gy/demo?view_id=ner>
 
-### Folia
+### FoLia Annotation Tool (FLAT)
 
 Site officiel : <https://pypi.org/project/FoLiA-Linguistic-Annotation-Tool/>
 
 * **Langage** : Django (Python)
 * **Documentation** : complète <https://flat.readthedocs.io/en/latest/user_guide.html>
 * **Communauté** :
-* **Intégration des données** : Basé seulement sur le format de données Folia <https://proycon.github.io/folia/>
+* **Intégration des données** : Basé seulement sur le format de données Folia <https://proycon.github.io/folia/>. Possibilité de transformer certains formats en format FoLia : <https://www.ubiquitypress.com/site/chapters/10.5334/bbi.6/download/1022/>
 * **Opérations supportées** : annotations manuelles seulement
 * **Pricing** : Opensource -- GNU Public License v3
 * **Algorithmes** : /
 * **Flexibilité** : /
 * **POC** : Demo <https://www.youtube.com/watch?v=tYF6grtldVQ>
+* **Description** :
+  * Une interface graphique agréable et facile à manipuler
+  * Possibilité de définir nos propres labels
+  * possibilité de faire l'annotation collaborative
+  * Versionning
+  * Possibilité d'ajouter un niveau de confidence aux annotations
+  * Basé sur le format Folia, un format basé sur le XML
+  * Sytème de gestion de fichiers/documents intégré
+  * plusieurs types de visualisation possible
+  * Possibilité de filtrer le type d'annotation que l'on veut visualiser
+  * Conserve la structured es documents (titres, paragraphes, images ...)
+  * Bibliothèque python assocoiée au format Folia : <https://pypi.org/project/FoLiA/>
+  * Supporte l'annotation de relation de dépendance
 
 ### GATE
 
@@ -134,6 +162,14 @@ Site officiel : <https://gate.ac.uk/>
 * **Algorithmes** :
 * **Flexibilité** :
 * **POC** :
+* **Description** :
+  * Une interface graphique plus complexe et moins agréable à utiliser. Mais cela va avec la quantité de fonctionnalités offertes.
+  * Possibilité de définir des pipelines pour les différentes étapes d'annotation
+  * beaucoup de plugin disponibles pour différentes applications
+  * un plugin existe pour la langue française <https://gate.ac.uk/sale/tao/splitch15.html#x20-38700015.2>
+  * Supporte une grande variété de format pour l'importation, entre autre le texte brut et le format XML. Ceratins formats JSON sont supportés via des plugins. L'exportation se fait principalement dans un format XML.
+  * supporte l'extraction de relation <https://gate.ac.uk/sale/talks/gate-course-may10/track-3/module-11-ml-adv/module-11-relations.pdf>
+  * intègre par défaut certains algorithmes de machine learning
 
 ### Apache UIMA
 
@@ -148,6 +184,11 @@ Site officiel : <https://uima.apache.org/>
 * **Algorithmes** :
 * **Flexibilité** :
 * **POC** :
+* **Description** :
+  * Framework pour intégrer un ensemble d'apllication de traitement de données non structurées
+  * Apache UIMA est un framework vide de base. Sa force vient de sa communuauté et des nombreux plugins qui y sont liés.
+  * Prévu pour gérer de grosses quantités de données
+  * <https://uima.apache.org/doc-uima-why.html>
 
 ### Webanno
 
@@ -162,6 +203,12 @@ Site officiel : <https://webanno.github.io/webanno/>
 * **Algorithmes** :
 * **Flexibilité** :
 * **POC** :
+* **Description** :
+  * Définition des labels par couche et manuellement
+  * De même pour la définition de relations
+  * Interface graphique agréable et facile à utiliser
+  * Gestion de plusieurs documents facilité
+  * 
 
 ### Callisto
 
@@ -173,7 +220,7 @@ Site officiel : <https://mitre.github.io/callisto/index.html>
 * **Intégration des données** : /
 * **Opérations supportées** : /
 * **Pricing** : OpenSource
-* **Algorithmes** :/
+* **Algorithmes** : /
 * **Flexibilité** : /
 * **POC** : <https://webanno.github.io/webanno/use-case-gallery/>
 No longer being actively supported
@@ -196,15 +243,15 @@ Site officiel : <https://www.lighttag.io/>
 
 Site officiel : <https://www.tagtog.net>
 
-* **Langage** :/
-* **Documentation** :/
-* **Communauté** :/
-* **Intégration des données** :/
-* **Opérations supportées** :/
+* **Langage** : /
+* **Documentation** : /
+* **Communauté** : /
+* **Intégration des données** : /
+* **Opérations supportées** : /
 * **Pricing** : <https://www.tagtog.net/-pricing>
-* **Algorithmes** :/
-* **Flexibilité** :/
-* **POC** :/
+* **Algorithmes** : /
+* **Flexibilité** : /
+* **POC** : /
 
 ### Marky
 
