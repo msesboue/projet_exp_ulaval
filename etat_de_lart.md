@@ -49,13 +49,13 @@ Site officiel : <https://brat.nlplab.org/index.html>
 * **POC** : <https://brat.nlplab.org/examples.html>
 * **Description** :
   * Une interface graphique agréable et facile à manipuler
-  * Permet de faire de l'annotation à plusieurs niveaux : entité nommée, relations
+  * Permet de faire de l'annotation à plusieurs niveaux : entités nommées, relations
   * Utilise des svg pour la visualisation
   * Permet de passer facilement d'une document à l'autre
   * Permet de passer facilement du texte annoté, au texte brut
   * possibilité de faire l'annotation collaborative
   * Possibilité de définir nos propres labels
-  * **Problème** : Le format du texte annoté pas facile à manipuler. format .txt avec structure particulière (standoff format).
+  * **Problème** : Le format du texte annoté n'est pas facile à manipuler. format .txt avec structure particulière (standoff format).
 
 ### NLTK
 
@@ -145,8 +145,8 @@ Site officiel : <https://pypi.org/project/FoLiA-Linguistic-Annotation-Tool/>
   * Sytème de gestion de fichiers/documents intégré
   * plusieurs types de visualisation possible
   * Possibilité de filtrer le type d'annotation que l'on veut visualiser
-  * Conserve la structured es documents (titres, paragraphes, images ...)
-  * Bibliothèque python assocoiée au format Folia : <https://pypi.org/project/FoLiA/>
+  * Conserve la structure des documents (titres, paragraphes, images ...)
+  * Bibliothèques python associées au format Folia : <https://pypi.org/project/FoLiA/>
   * Supporte l'annotation de relation de dépendance
 
 ### GATE
@@ -165,9 +165,9 @@ Site officiel : <https://gate.ac.uk/>
 * **Description** :
   * Une interface graphique plus complexe et moins agréable à utiliser. Mais cela va avec la quantité de fonctionnalités offertes.
   * Possibilité de définir des pipelines pour les différentes étapes d'annotation
-  * beaucoup de plugin disponibles pour différentes applications
+  * beaucoup de plugins disponibles pour différentes applications
   * un plugin existe pour la langue française <https://gate.ac.uk/sale/tao/splitch15.html#x20-38700015.2>
-  * Supporte une grande variété de format pour l'importation, entre autre le texte brut et le format XML. Ceratins formats JSON sont supportés via des plugins. L'exportation se fait principalement dans un format XML.
+  * Supporte une grande variété de format pour l'importation, entre autre le texte brut et le format XML. Certains formats JSON sont supportés via des plugins. L'exportation se fait principalement dans un format XML.
   * supporte l'extraction de relation <https://gate.ac.uk/sale/talks/gate-course-may10/track-3/module-11-ml-adv/module-11-relations.pdf>
   * intègre par défaut certains algorithmes de machine learning
 
@@ -208,7 +208,9 @@ Site officiel : <https://webanno.github.io/webanno/>
   * De même pour la définition de relations
   * Interface graphique agréable et facile à utiliser
   * Gestion de plusieurs documents facilité
-  * 
+  * Possibilité d'intégrer des outils extèrieure pour certaines tâches
+  * Automation feature : permet d'utiliser un outil externe pour faire des propositions d'annotation
+  * Quelques tutorials : <https://www.youtube.com/channel/UCew3TzVAw4MHIt0zAHFIcxQ>
 
 ### Callisto
 
@@ -223,18 +225,19 @@ Site officiel : <https://mitre.github.io/callisto/index.html>
 * **Algorithmes** : /
 * **Flexibilité** : /
 * **POC** : <https://webanno.github.io/webanno/use-case-gallery/>
-No longer being actively supported
+* **Description** :
+  * **Problème** : No longer being actively supported
 
 ### LightTag
 
 Site officiel : <https://www.lighttag.io/>
 
 * **Langage** :
-* **Documentation** :
+* **Documentation** : correcte <https://guide.lighttag.io>
 * **Communauté** :
 * **Intégration des données** :
 * **Opérations supportées** :
-* **Pricing** :
+* **Pricing** : <https://www.lighttag.io/pricing>
 * **Algorithmes** :
 * **Flexibilité** :
 * **POC** :
@@ -244,7 +247,7 @@ Site officiel : <https://www.lighttag.io/>
 Site officiel : <https://www.tagtog.net>
 
 * **Langage** : /
-* **Documentation** : /
+* **Documentation** : complète <https://docs.tagtog.net/>
 * **Communauté** : /
 * **Intégration des données** : /
 * **Opérations supportées** : /
@@ -266,5 +269,14 @@ Site officiel : <http://www.sing-group.org/marky/>
 * **Algorithmes** : /
 * **Flexibilité** : /
 * **POC** : <http://www.sing-group.org/marky/tutorial.html>
+* **Description** :
+  * Interface graphique correcte
+  * Permet l'annotation collaborative
+  * Possibilité d'éditer les documents tant que l'annotation n'est pas commencée
+  * Format d'importation : .html .htm .txt. Possibilité de passer un URL
+  * Possibilité de définir nos propres labels
+  * **Problème** : 
+    * pas de'information sur les possibilités d'intégrer des outils
+    * Pas d'information sur le format des fichiers annotés
 
 ## Choix final
