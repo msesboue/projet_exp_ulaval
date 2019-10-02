@@ -280,3 +280,7 @@ Site officiel : <http://www.sing-group.org/marky/>
     * Pas d'information sur le format des fichiers annotés
 
 ## Choix final
+
+* Gate
+* Webanno
+* Folia
