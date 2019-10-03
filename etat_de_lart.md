@@ -143,7 +143,7 @@ Site officiel : <https://pypi.org/project/FoLiA-Linguistic-Annotation-Tool/>
   * Possibilité d'ajouter un niveau de confidence aux annotations
   * Basé sur le format Folia, un format basé sur le XML
   * Sytème de gestion de fichiers/documents intégré
-  * plusieurs types de visualisation possible
+  * plusieurs types de visualisation possibles
   * Possibilité de filtrer le type d'annotation que l'on veut visualiser
   * Conserve la structure des documents (titres, paragraphes, images ...)
   * Bibliothèques python associées au format Folia : <https://pypi.org/project/FoLiA/>
@@ -279,8 +279,21 @@ Site officiel : <http://www.sing-group.org/marky/>
     * pas de'information sur les possibilités d'intégrer des outils
     * Pas d'information sur le format des fichiers annotés
 
-## Choix final
+## Choix finaux
 
-* Gate
-* Webanno
-* Folia
+Parmis les outils brièvement présentés ci-dessus, nous avons d'office exclus ceux qui n'étaient pas opensource. Parmis ceux restant, trois ont retenu notre attention :
+
+* Gate :
+  * Notre choix principal se porte sur le logiciel GATE pour la richesse des outils qu'il intègre. De plus de nombreux projets on été réalisés avec lui, produisant ainsi plusieurs articles de recherche et une solide communauté.
+  * Le fait que certains algorithmes de NLP soient déjà intégrés est aussi intéressant.
+  * Étant donné l'étendue des possibilités offertes par ce logiciel, il faut prendre en compte que le temps de prise en main peut être plus long que pour d'autres outils.
+* Webanno :
+  * Cet outil est aussi un potentiel choix étant donné son interface graphique plus simple tout en offrant les fonctionnalités que nous recherchons.
+  * De plus il permet d'intégrer des outils externes, ou leurs résultat, ce qui peut être intéressant pour construire une potentielle pipeline
+  * Même si la prise en main devrait être plus simple, il propose moins de fonctionnalités que GATE.
+* Folia :
+  * Cet outil est intéressant non seulement pour son interface graphique agréable et intuitive mais également pour la possibilité d'intégrer des niveaux de confidence sur les annotations. Cette information peut potentiellement être utile par la suite.
+  * Le format de données annotées est aussi intéressant car il semble être bien établi et utilise le XML, un langage autour duquel gravite beaucoup d'outils qui permettent de faire énormément de choses. Il existe également des bibliothèques Python pour manipuler ce format.
+  * Ce format étant nouveau pour nous, il faut prendre en compte le temps de prise en main.
+
+**Quelque soit le choix final, le premier point à tester et valider est le format de données annotées.**
