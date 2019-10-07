@@ -295,5 +295,9 @@ Parmis les outils brièvement présentés ci-dessus, nous avons d'office exclus 
   * Cet outil est intéressant non seulement pour son interface graphique agréable et intuitive mais également pour la possibilité d'intégrer des niveaux de confidence sur les annotations. Cette information peut potentiellement être utile par la suite.
   * Le format de données annotées est aussi intéressant car il semble être bien établi et utilise le XML, un langage autour duquel gravite beaucoup d'outils qui permettent de faire énormément de choses. Il existe également des bibliothèques Python pour manipuler ce format.
   * Ce format étant nouveau pour nous, il faut prendre en compte le temps de prise en main.
+* Doccano :
+  * Cet outil est une alternative OpenSource à Prodidy, il intègre une interface graphique très simple offrant toutes les fonctionnalités que nous recherchons sauf l'annotation de relation.
+  * Cet outil est dédié uniquement à l'annotation de texte donc il n'intègre pas d'algorithnmes de NLP, néanmoins en ce moment une feature dédiée à l'auto-labeling est dévelopée.
+  * L'interface graphique semble très simple à prendre en main, on peut aisément importer tous types de document et exporter les données annotées sous forme de fichier .csv ou .json.
 
 **Quelque soit le choix final, le premier point à tester et valider est le format de données annotées.**
